@@ -12,8 +12,7 @@ header {
 
 nav {
   display: inline-block;
-  padding-right: 30px;
-  width: 30%;
+  padding-right: 40px;
 }
 
 nav span {
@@ -24,7 +23,7 @@ nav span {
   display: flex;
   align-items: center;
   padding-left: 30px;
-  width: 70%;
+  flex-grow: 1;
   border: 1px solid black;
 }
 
@@ -43,6 +42,8 @@ nav a {
   flex-direction: row;
   border: 1px solid black;
   justify-content: space-around;
+  max-width: 1232px;
+  margin: 0 auto 78px auto;
 }
 
 .large,
@@ -51,6 +52,7 @@ nav a {
   display: flex;
   border: 1px solid black;
   flex-direction: column;
+  margin-right: 32px;
 }
 
 .large {
@@ -72,9 +74,11 @@ nav a {
 .guity,
 .bites {
   border: 1px solid black;
+  margin: 0;
 }
 .phish p,
 .cats p,
 .small img {
   border: 1px solid black;
+  margin: 0;
 }
