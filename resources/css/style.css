@@ -1,3 +1,4 @@
+/* Header/Navigation styling */
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -5,24 +6,75 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
-  padding-bottom: 10px;
-}
-
-nav li {
-  display: inline-block;
-  padding: 10px;
-}
-
-span.logo {
-  display: flex;
+  padding: 10px 0px;
   align-items: center;
 }
 
-li a {
+nav {
+  display: inline-block;
+  padding-right: 30px;
+  width: 30%;
+}
+
+nav span {
+    padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  width: 70%;
+  border: 1px solid black;
+}
+
+nav a {
   color: black;
 }
 
 .logo span {
   color: MediumAquamarine;
   padding: 10px;
+}
+
+/* Main Content Styling */
+.maincontent {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  justify-content: space-around;
+}
+
+.large,
+.medium,
+.small {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.large {
+  width: 630px;
+}
+
+.medium {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
+}
+
+.orca,
+.earth,
+.burger,
+.cameras,
+.guity,
+.bites {
+  border: 1px solid black;
+}
+.phish p,
+.cats p,
+.small img {
+  border: 1px solid black;
 }
